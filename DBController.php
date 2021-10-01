@@ -9,7 +9,7 @@ class DBController
 
     private $password = "123";
 
-    private $database = "paypal";
+    private $database = "payment";
 
     private $conn;
 
