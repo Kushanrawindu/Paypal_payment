@@ -5,6 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paypal payment</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            line-height: 30px;
+            color: #333;
+        }
+
+        #payment-box {
+            padding: 40px;
+            margin: 20px;
+            border: #E4E4E4 1px solid;
+            display: inline-block;
+            text-align: center;
+            border-radius: 3px;
+        }
+
+        #pay_now {
+            padding: 10px 30px;
+            background: #09f;
+            border: #038fec 1px solid;
+            border-radius: 3px;
+            color: #FFF;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .txt-title {
+            margin: 25px 0px 0px 0px;
+            color: #4e4e4e;
+        }
+
+        .txt-price {
+            margin-bottom: 20px;
+            color: #08926c;
+            font-size: 1.1em;
+        }
+    </style>
 </head>
 <body>
     <div id="payment-box">
